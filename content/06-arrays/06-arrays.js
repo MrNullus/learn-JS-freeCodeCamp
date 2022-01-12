@@ -111,7 +111,8 @@ console.log(codersWin);
 // - unshift() -
 // Adiciona um item no começo do array
 var runners = ["ManDrak", "Drafor", "MindFur", "Ovinir"];
-var runnersWin = [
+var runnersWin = [];
+runnersWin = [
     runnersWin.unshift(runners[3]),
     runnersWin.unshift(runners[1]),
     runnersWin.unshift(runners[2])
@@ -126,3 +127,4 @@ var cart = [
     ["juice", 2],
     ["eggs", 12]
 ];
+console.log(cart);
